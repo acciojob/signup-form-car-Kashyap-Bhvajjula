@@ -13,10 +13,10 @@
 	<form method = "post">
 		
 		<label for = "name">Name</label>
-		<input type = "text" placeholder = "Name" required>
+		<input type = "text" placeholder = "Name"  id = "name" required>
 
-		<label for = "Email">Email</label>
-		<input type = "email" placeholder = "Email" required>
+		<label for = "email">Email</label>
+		<input type = "email" placeholder = "Email" required id = "email">
 
 		 <label for="gender_m">
 			 <input type="radio" id="gender_m" name="gender" required> Male
@@ -27,8 +27,7 @@
 
 		
 		<label for = "cars" >Car Brands</label>
-		<select placeholder = "--Please choose an option--">
-			<option value = "#" selected disabled>--Please choose an option--</option>
+		<select placeholder = "--Please choose an option--" id = "cars">
 			<option value ="Lexus">Lexus</option>
 		</select>
 
@@ -42,12 +41,10 @@
 		<input type ="tel" id = "tel" placeholder = "xxx-xxx-xxxx">
 
 		<label for = "password">Password</label>
-		<input type = "password" required placeholder= "Password">
+		<input type = "password" required placeholder= "Password" id = "password">
 
 		<label for = "tos">I agree to the TOS</label>
-		<input type = "checkbox" required id = "tos">	
-
-		
+		<input type = "checkbox" required id = "tos">			
 	</form>
 
 </body>
